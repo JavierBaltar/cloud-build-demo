@@ -2,5 +2,5 @@ steps:
 - name: 'docker'
   args: ['version']
   
-- name: 'docker build'
+- name: 'docker'
   args: ['build', '-t', 'gcr.io/playground-s-11-4d79e53e/myimage', '.']
