@@ -3,5 +3,5 @@ steps:
   args: ['version']
   
 - name: 'docker'
-  args: ['build', '-t', 'us.gcr.io/playground-s-11-4d79e53e/myimage', '.']
-images: ['us.gcr.io/playground-s-11-4d79e53e/javier-python']
+  args: ['build', '-t', 'us.gcr.io/playground-s-11-4d79e53e/javier-python:latest', '.']
+images: ['us.gcr.io/playground-s-11-4d79e53e/javier-python:latest']
