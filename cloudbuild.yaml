@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/git'
-  args: ['clone', 'https://github.com/JavierBaltar/cloud-build-demo', '.']
+  args: ['clone', 'https://github.com/JavierBaltar/cloud-build-demo', './repo2']
   
 - name: 'gcr.io/cloud-builders/gcloud'
   entrypoint: 'bash'
